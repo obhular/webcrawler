@@ -114,8 +114,3 @@ def awardScrape(startDate,endDate,startLocation,endLocation):
     return df_flights
 
 
-startDate = datetime.datetime(2023, 3, 20)
-endDate = datetime.datetime(2023,12,30)
-startLocation = 'NYC'
-endLocation = 'MAD'
-df_flight_data = awardScrape(startDate,endDate,startLocation,endLocation)
