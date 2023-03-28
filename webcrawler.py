@@ -13,7 +13,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 import datetime
 
-# add Class type
 def awardScrape(startDate,endDate,startLocation,endLocation):
     # OPEN KLM
     
